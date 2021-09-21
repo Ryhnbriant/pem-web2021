@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+
+.first-section {
+   object-fit: cover;
+}
+
+.first-section video {
+    min-width: 98.75vw;
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+}
+
+.column1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5%;
+}
+
+.column2 {
+   width: 100%;
+}
+
+.gambar-profil {
+    color: white;
+   float:left;
+    vertical-align: middle;
+    display:flex;
+    padding-top:10%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+audio {
+    display: none;
+}
+
+a{
+    color: #fff;
+}
+
+video{
+    width: 100%;
+}
