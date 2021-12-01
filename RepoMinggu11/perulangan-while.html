@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Percabangan if</title>
+</head>
+<body>
+    <script>
+        var ulangi = confirm("Apakah anda mau mengulang?");
+        var counter = 0;
+
+        while(ulangin){
+            var jawab = confirm("Apakah anda mau mengulang?")
+            counter++;
+            if(jawab == false){
+                ulangi = false;
+            }
+        }
+
+        document.write("Perulangan sudah dilakukan sebanyak "+counter +" kali");
+        while(ulangi){
+            counter++;
+            ulangi = confirm("Apakah anda mau mengulang?");
+        }
+    </script>
+</body>
+</html>
